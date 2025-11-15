@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Email Signup - Redirect Method</title>
+<style>
+  body { font-family: Arial, sans-serif; text-align: center; padding: 50px; background-color: #f5f5f5; }
+  h2 { color: #6a49a2; }
+  form input { 
+    padding: 10px; 
+    width: 250px; 
+    margin-bottom: 15px; 
+    border: 2px solid #6a49a2; 
+    border-radius: 6px; 
+  }
+  button { 
+    padding: 10px 20px; 
+    background-color: #6a49a2; 
+    color: white; 
+    border: none; 
+    cursor: pointer; 
+    border-radius: 6px; 
+  }
+</style>
+</head>
+<body>
+
+<h2>Stay Up-to-Date with Top three Best Investment Updates!</h2>
+<p>Subscribe to get daily tips, guides, and insights.</p>
+
+<!-- This form will reload the page on submission and redirect to the App Script URL -->
+<form action="https://script.google.com/macros/s/AKfycbxzaB4aC2-SXjheHz4drYauk5OaJOUcjjQpY4q-bteDELobD1xTPuAm2kYoRDZCQaBR/exec" method="POST">
+  <input type="email" name="email" placeholder="Enter your email" required>
+  <br>
+  <button type="submit">Subscribe</button>
+</form>
+
+</body>
+</html>
